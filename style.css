@@ -292,7 +292,7 @@ display:inline-block;
 .featured{
     width:90%;
     max-width:1400px;
-    margin:100px auto;
+    margin:70px auto;
 }
 
 .section-title{
@@ -343,7 +343,7 @@ display:inline-block;
 .services{
     width:90%;
     max-width:1400px;
-    margin:120px auto;
+    margin:80px auto;
 }
 
 .service-grid{
@@ -381,7 +381,7 @@ display:inline-block;
 .about{
     width:90%;
     max-width:1400px;
-    margin:120px auto;
+    margin:80px auto;
     display:flex;
     gap:60px;
     align-items:center;
@@ -426,7 +426,7 @@ display:inline-block;
 .tools{
     width:90%;
     max-width:1400px;
-    margin:120px auto;
+    margin:80px auto;
     text-align:center;
 }
 
@@ -469,7 +469,7 @@ display:inline-block;
 .projects{
     width:90%;
     max-width:1400px;
-    margin:120px auto;
+    margin:80px auto;
     text-align:center;
 }
 
@@ -534,7 +534,7 @@ display:inline-block;
 .contact{
     width:90%;
     max-width:1000px;
-    margin:120px auto;
+    margin:80px auto;
     text-align:center;
 }
 
@@ -631,7 +631,7 @@ footer{
 
 
     .contact{
-        margin:80px auto;
+        margin:60px auto;
         padding:20px;
     }
 
@@ -874,4 +874,23 @@ html,body{
         max-width:350px;
     }
 
+}
+
+.social-links{
+    margin-top:15px;
+}
+
+.social-links a{
+    display:inline-block;
+    margin:5px;
+    padding:12px 25px;
+    background:#C1121F;
+    color:white;
+    text-decoration:none;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+.social-links a:hover{
+    background:#e01b2f;
 }
