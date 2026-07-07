@@ -773,17 +773,23 @@ html, body{
 
 }
 
-html, body{
+html{
+    scroll-behavior:smooth;
+}
+
+html,body{
     width:100%;
-    max-width:100%;
     overflow-x:hidden;
 }
 
-*{
-    max-width:100%;
-}
 
 @media (max-width:768px){
+
+    body{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
 
     .navbar,
     .hero,
@@ -793,10 +799,56 @@ html, body{
     .about,
     .tools,
     .projects,
-    .contact{
+    .contact,
+    footer{
         width:90%;
         margin-left:auto;
         margin-right:auto;
+    }
+
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:40px 0;
+    }
+
+
+    .hero-left,
+    .hero-right{
+        width:100%;
+    }
+
+
+    .description{
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+
+    .buttons{
+        justify-content:center;
+        align-items:center;
+    }
+
+
+    .tools-container,
+    .projects-container{
+        justify-content:center;
+        align-items:center;
+    }
+
+
+    .tool-card,
+    .project-card{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+
+    img{
+        max-width:100%;
     }
 
 }
