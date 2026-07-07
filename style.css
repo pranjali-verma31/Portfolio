@@ -743,3 +743,60 @@ footer{
 html{
     scroll-behavior:smooth;
 }
+
+html, body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+@media (max-width:768px){
+
+    .hero,
+    .about,
+    .tools,
+    .projects,
+    .contact,
+    .services{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .hero-left,
+    .hero-right{
+        width:100%;
+    }
+
+    img{
+        max-width:100%;
+    }
+
+}
+
+html, body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+}
+
+*{
+    max-width:100%;
+}
+
+@media (max-width:768px){
+
+    .navbar,
+    .hero,
+    .stats,
+    .featured,
+    .services,
+    .about,
+    .tools,
+    .projects,
+    .contact{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
