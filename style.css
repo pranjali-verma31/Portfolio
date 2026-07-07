@@ -158,6 +158,9 @@ body{
 
     transition:0.3s;
 
+    text-decoration:none;
+display:inline-block;
+
 }
 
 .btn-outline{
@@ -177,6 +180,9 @@ body{
     font-size:16px;
      
     transition:0.3s;
+
+    text-decoration:none;
+display:inline-block;
  
 }
 
@@ -631,3 +637,109 @@ footer{
 
 }
 
+@media (max-width:768px){
+
+    .hero{
+        width:90%;
+        min-height:auto;
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+        padding:40px 0;
+    }
+
+    .hero-left{
+        width:100%;
+    }
+
+    .hero h1{
+        font-size:55px;
+        line-height:1;
+    }
+
+    .hero-title{
+        font-size:35px;
+    }
+
+    .description{
+        width:100%;
+        font-size:15px;
+        margin:20px auto;
+    }
+
+    .buttons{
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn-red,
+    .btn-outline{
+        width:80%;
+    }
+
+    .hero-right img{
+        width:80%;
+    }
+
+}@media (max-width:768px){
+
+    .tools,
+    .projects{
+        width:90%;
+        margin:80px auto;
+    }
+
+    .section-title{
+        font-size:42px;
+    }
+
+    .tools-container,
+    .projects-container{
+        flex-direction:column;
+        align-items:center;
+        gap:25px;
+    }
+
+    .tool-card{
+        width:85%;
+        padding:25px;
+    }
+
+    .project-card{
+        width:90%;
+    }
+
+    .project-card img{
+        height:180px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .contact{
+        width:90%;
+        margin:80px auto;
+        text-align:center;
+    }
+
+    .contact-container p{
+        font-size:16px;
+    }
+
+    .contact-btn{
+        width:80%;
+        padding:12px 20px;
+    }
+
+    footer{
+        font-size:13px;
+        padding:20px;
+    }
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
