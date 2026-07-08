@@ -90,28 +90,29 @@ body{
 /* Hero */
 
 .hero{
-
-    width:90%;
-    max-width:1400px;
-    margin:auto;
-    min-height:auto;
+    width:100%;
+    min-height:100vh;
 
     display:flex;
-    justify-content:space-between;
     align-items:center;
-    gap:60px;
-     
-    padding: 40px 0;
 
+    padding:0 8%;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("assets/images/hero-bg.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .hero-left{
-
-    flex:1;
-
+    max-width:650px;
+    z-index:2;
 }
 .subtitle{
-    color:#C1121F;
+    color:#ffffff;
     letter-spacing:3px;
     text-transform:uppercase;
     margin-bottom:20px;
@@ -190,28 +191,6 @@ display:inline-block;
 
 /* Right Image */
 
-.hero-right{
-
-    flex:1;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-}
-
-.hero-right img{
-
-    width:100%;
-    max-width:420px;
-
-    border-radius:25px;
-
-    box-shadow:0 0 40px rgba(193,18,31,0.35);
-
-}
 .hero-title{
     font-size:48px;
     color:#C1121F;
@@ -896,3 +875,40 @@ html,body{
 .social-links a:hover{
     background:#e01b2f;
 }
+
+/* Education */
+
+.education{
+    width:90%;
+    max-width:1400px;
+    margin:80px auto;
+}
+
+.education-card{
+    background:#111;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:35px;
+    transition:.3s;
+}
+
+.education-card:hover{
+    border-color:#C1121F;
+    transform:translateY(-8px);
+}
+
+.education-card h3{
+    color:#C1121F;
+    margin-bottom:10px;
+    font-size:28px;
+}
+
+.education-card p{
+    color:#bdbdbd;
+    margin-bottom:8px;
+}
+
+.education-card span{
+    color:#888;
+}
+
