@@ -75,7 +75,6 @@ body{
 
     display:flex;
     align-items:center;
-    
 
     padding:0 8%;
 
@@ -1087,23 +1086,17 @@ footer{
 
 .hero{
 
-    width:100%;
+    width:90%;
 
-    min-height:100vh;
+    min-height:auto;
 
-    padding:60px 20px;
+    padding:60px 0;
 
     flex-direction:column;
 
     text-align:center;
 
     justify-content:center;
-
-    align-items: flex-start;
-
-    background-size: cover;
-    background-position: 75%;
-
 
 }
 
@@ -1371,29 +1364,5 @@ footer{
 
 }
 
-
-}
-
-/* Education */
-
-.education{
-
-    width:90%;
-
-    margin:70px auto;
-
-}
-
-
-.education-card{
-
-    padding:25px;
-
-}
-
-
-.education-card h3{
-
-    font-size:24px;
 
 }
