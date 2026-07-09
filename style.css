@@ -75,6 +75,7 @@ body{
 
     display:flex;
     align-items:center;
+    
 
     padding:0 8%;
 
@@ -1086,17 +1087,23 @@ footer{
 
 .hero{
 
-    width:90%;
+    width:100%;
 
-    min-height:auto;
+    min-height:100vh;
 
-    padding:60px 0;
+    padding:60px 20px;
 
     flex-direction:column;
 
     text-align:center;
 
     justify-content:center;
+
+    align-items: flex-start;
+
+    background-size: cover;
+    background-position: 75%;
+
 
 }
 
